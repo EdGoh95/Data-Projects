@@ -289,10 +289,10 @@ class StreamClassifier(StreamListener):
         '''
         print(status)
         
-consumer_key = 'OohAb7fpfDfw7WFQ0iuwsBVke'
-consumer_secret = 'y19V2rmv4acZ6OKoDjQ43SwCYkv0FKpewvedj5jvcDDlPQrf97' 
-access_token = '350778491-zhYZuk8iHNISSQYi695WRqoWwAk9zL6WfZpv9V7y'
-access_token_secret = 'fLpp2LmSqkoNThMJGYXmpcTotRJ8kV796caSq2HZ5RAhG'
+consumer_key = '<YOUR CONSUMER KEY>'
+consumer_secret = '<YOUR CONSUMER SECRET>' 
+access_token = '<YOUR ACCESS TOKEN>'
+access_token_secret = '<YOUR ACCESS TOKEN SECRET>'
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 classifier = StreamClassifier(classifier = voting_ensemble, 
