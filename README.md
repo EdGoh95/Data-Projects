@@ -13,4 +13,6 @@ Case Studies:
 4. [Recommending Movies with Keras](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Movie%20Recommendations.py)
 5. [Clustering World Happiness](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Clustering%20World%20Happiness.py)
 
+Note: Datasets can found under [Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
+
 ## Deep Learning
