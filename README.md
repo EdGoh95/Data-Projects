@@ -2,6 +2,7 @@ This repository contains a collection of data science and machine learning proje
 
 ## Supervised Learning
 1) [Logistic Regression Using The Titanic Survival Dataset](https://github.com/EdGoh95/Data-Projects/tree/main/Supervised%20Learning/Logistic%20Regression)
+2) [k-Nearest Neighbours (KNN) Using The Iris Flower Dataset](https://github.com/EdGoh95/Data-Projects/tree/main/Supervised%20Learning/K-Nearest%20Neighbours%20(KNN))
 
 ## Unsupervised Learning
 
