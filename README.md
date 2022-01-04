@@ -6,7 +6,7 @@ This repository contains a collection of data science and machine learning proje
 ## Unsupervised Learning
 
 ## Ensemble Techniques
-Case Studies:
+Case Studies: <br>
 1) 
 
 ## Deep Learning
