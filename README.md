@@ -17,3 +17,7 @@ Case Studies:
 Note: Datasets can found under [Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
 
 ## Deep Learning
+
+## TensorFlow
+1) [Natural Language Processing (NLP)]
+2) [Convolutional Neural Networks (CNNs)]
