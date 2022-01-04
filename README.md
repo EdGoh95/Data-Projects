@@ -19,5 +19,5 @@ Note: Datasets can found under [Data](https://github.com/EdGoh95/Data-Projects/t
 ## Deep Learning
 
 ## TensorFlow
-1) [Natural Language Processing (NLP)]
+1) [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Natural%20Language%20Processing.py)
 2) [Convolutional Neural Networks (CNNs)]
