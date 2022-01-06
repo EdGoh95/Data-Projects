@@ -1,4 +1,4 @@
-This repository contains a collection of data science and machine learning projects provided and guided by books and courses.
+This repository contains a collection of data science and machine learning projects provided and guided by various books and courses.
 
 ## Supervised Learning
 1) [Logistic Regression Using The Titanic Survival Dataset](https://github.com/EdGoh95/Data-Projects/tree/main/Supervised%20Learning/Logistic%20Regression)
