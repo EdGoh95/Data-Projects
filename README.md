@@ -14,10 +14,15 @@ Case Studies:
 4. [Recommending Movies with Keras](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Movie%20Recommendations.py)
 5. [Clustering World Happiness](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Clustering%20World%20Happiness.py)
 
-Note: Datasets can found under [Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
+Note: Datasets can found under [Ensemble Techniques/Case Studies/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
 
 ## Deep Learning
 
 ## TensorFlow
-1) [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Natural%20Language%20Processing.py)
-2) [Convolutional Neural Networks (CNNs)]
+1) [Neural Networks (A General Implementation)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Neural%20Networks.py)
+2) [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Natural%20Language%20Processing.py)
+3) [Convolutional Neural Networks (CNNs)]
+
+Note: Datasets can be found under [TensorFlow/Data](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Data)
+      Embeddings in [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Natural%20Language%20Processing.py) script can
+      be found under [TensorFlow/Embeddings](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Embeddings) 
