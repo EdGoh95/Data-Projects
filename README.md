@@ -24,4 +24,4 @@ Note: Datasets can found under [Ensemble Techniques/Case Studies/Data](https://g
 3) [Convolutional Neural Networks (CNNs)]
 
 Note: Datasets can be found under [TensorFlow/Data](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Data) <br>
-      <tab> Embeddings in [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Natural%20Language%20Processing.py) script can be found under [TensorFlow/Embeddings](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Embeddings) 
+      <t> Embeddings in [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Natural%20Language%20Processing.py) script can be found under [TensorFlow/Embeddings](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Embeddings) 
