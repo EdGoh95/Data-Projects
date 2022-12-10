@@ -1,7 +1,5 @@
 # Run dependencies
-python38 ~= 3.8
-python39 ~= 3.9
-python310 ~= 3.10
+python >= 3.8
 azureml-core ~= 1.47.0
 azureml-sdk ~= 1.47.0
 azureml-defaults ~= 1.47.0
