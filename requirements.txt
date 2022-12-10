@@ -1,5 +1,4 @@
 # Run dependencies
-python >= 3.8
 azureml-core ~= 1.47.0
 azureml-sdk ~= 1.47.0
 azureml-defaults ~= 1.47.0
