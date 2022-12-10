@@ -28,5 +28,5 @@ steps:
 
 - script: |
     pip install pytest pytest-cov pytest-azurepipelines 
-    pytest testsv --doctest-modules
+    pytest tests --doctest-modules
   displayName: 'Test with pytest'
