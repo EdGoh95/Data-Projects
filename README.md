@@ -3,7 +3,7 @@ This repository contains a collection of data science and machine learning proje
 ## Supervised Learning
 1) [Logistic Regression Using The Titanic Survival Dataset](https://github.com/EdGoh95/Data-Projects/tree/main/Supervised%20Learning/Logistic%20Regression)
 2) [k-Nearest Neighbours (KNN) Using The Iris Flower Dataset](https://github.com/EdGoh95/Data-Projects/tree/main/Supervised%20Learning/K-Nearest%20Neighbours%20(KNN))
-3) [HDB Resale Price Price Predictions](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions)
+3) [HDB Resale Price Price Predictions Using The Approved HDB Resale Transactions (1990-2023) Dataset](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions)
 
 ## Unsupervised Learning
 
