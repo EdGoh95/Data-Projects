@@ -13,9 +13,9 @@ Case Studies:
 3. [Evaluating Sentiments On Twitter](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Sentiment%20Analysis%20Using%20Twitter%20Data.py)
 4. [Recommending Movies with Keras](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Movie%20Recommendations.py)
 5. [Clustering World Happiness](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Clustering%20World%20Happiness.py)
-6. [HDB Resale Price Price Predictions](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions
+6. [HDB Resale Price Price Predictions](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions)
 
-Note: Datasets can found under [Ensemble Techniques/Case Studies/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
+Note: Datasets, other than the case study for HDB Resale Price Predictions, can found under [Ensemble Techniques/Case Studies/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
 
 ## Deep Learning
 
