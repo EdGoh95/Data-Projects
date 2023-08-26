@@ -15,7 +15,7 @@ Case Studies:
 5. [Clustering World Happiness](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Clustering%20World%20Happiness.py)
 6. [HDB Resale Price Price Predictions](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions)
 
-Note: Datasets, other than the case study for HDB Resale Price Predictions, can found under [Ensemble Techniques/Case Studies/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
+Note: Datasets, other than the case study for [HDB Resale Price Price Predictions](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions), can found under [Ensemble Techniques/Case Studies/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
 
 ## Deep Learning
 
