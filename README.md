@@ -1,12 +1,12 @@
 This repository contains a collection of data science and machine learning projects provided and guided by various books and courses.
 
-## Supervised Learning
+# Supervised Learning
 1) [Logistic Regression Using The Titanic Survival Dataset](https://github.com/EdGoh95/Data-Projects/tree/main/Supervised%20Learning/Logistic%20Regression)
 2) [k-Nearest Neighbours (KNN) Using The Iris Flower Dataset](https://github.com/EdGoh95/Data-Projects/tree/main/Supervised%20Learning/K-Nearest%20Neighbours%20(KNN))
 
-## Unsupervised Learning
+# Unsupervised Learning
 
-## Ensemble Techniques
+# Ensemble Techniques
 Case Studies: 
 1. [Classifying Fraudulent Credit Card Transactions](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Credit%20Card%20Fraud%20Detection.py)
 2. [Predicting BitCoin Prices](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Bitcoin%20Prices%20Predictions.py)
@@ -15,9 +15,9 @@ Case Studies:
 5. [Clustering World Happiness](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Clustering%20World%20Happiness.py)
 6. [HDB Resale Price Price Predictions](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions)
 
-Note: Datasets, other than the case study for [HDB Resale Price Price Predictions](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions), can found under [Ensemble Techniques/Case Studies/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
+Note: Datasets, other than the [HDB Resale Price Price Predictions](https://github.com/EdGoh95/Data-Projects/tree/main/HDB%20Resale%20Flat%20Price%20Predictions) case study, can found under [Ensemble Techniques/Case Studies/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Ensemble%20Techniques/Case%20Studies/Data)
 
-## Deep Learning
+# Deep Learning
 
 ## TensorFlow
 1) [Neural Networks (A General Implementation)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Neural%20Networks.py)
@@ -27,3 +27,9 @@ Note: Datasets, other than the case study for [HDB Resale Price Price Prediction
 Note: Datasets can be found under [TensorFlow/Data](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Data) <br />
       &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
 	  Embeddings in the [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Natural%20Language%20Processing.py) script can be found under [TensorFlow/Embeddings](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Embeddings)
+
+# Machine Learning (ML) In Production
+
+## Automated Machine Learning (AutoML)
+1) [Microsoft Azure Machine Learning Service (AMLS)](https://github.com/EdGoh95/Data-Projects/tree/main/Automated%20Machine%20Learning%20(AutoML)/Microsoft%20Azure)
+
