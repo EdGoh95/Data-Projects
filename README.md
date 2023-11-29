@@ -22,8 +22,9 @@ Note: Datasets, other than the [HDB Resale Price Price Predictions](https://gith
 ## TensorFlow
 1) [Neural Networks (A General Implementation)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Neural%20Networks.py)
 2) [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/TensorFlow/Natural%20Language%20Processing.py)
-3) [Reinforcement Learning](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Reinforcement%20Learning)
-4) [Convolutional Neural Networks (CNNs)]
+3) [Reinforcement Learning (RL)](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Reinforcement%20Learning)
+4) [Graph Neural Networks (GNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Graph%20Neural%20Networks%20(GNN))
+5) [Convolutional Neural Networks (CNNs)]
 
 Note: Datasets can be found under [TensorFlow/Data](https://github.com/EdGoh95/Data-Projects/tree/main/TensorFlow/Data) <br />
       &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
