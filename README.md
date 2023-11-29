@@ -23,15 +23,14 @@ Note: Datasets, other than the [HDB Resale Price Price Predictions](https://gith
 2) [Recurrent Neural Networks (RNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Recurrent%20Neural%20Networks%20(RNN))
 3) [Graph Neural Networks (GNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Graph%20Neural%20Networks%20(GNN))
 
+Note: Datasets can be found under [Deep Learning/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Data) 
+
 ## TensorFlow
 1) [Neural Networks (A General Implementation)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Neural%20Networks.py)
 2) [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Neural%20Networks.py)
 3) [Convolutional Neural Networks (CNNs)]
 
-
-Note: Datasets can be found under [Deep Learning/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Data) <br />
-      &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;
-	  Embeddings in the [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Neural%20Networks.py) script can be found under [Deep Learning/TensorFlow/Embeddings](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/TensorFlow/Embeddings)
+Note: Embeddings in the [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Neural%20Networks.py) script can be found under [Deep Learning/TensorFlow/Embeddings](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/TensorFlow/Embeddings)
 
 # Machine Learning (ML) In Production
 
