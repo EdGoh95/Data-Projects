@@ -22,7 +22,7 @@ Note: Datasets, other than the [HDB Resale Price Price Predictions](https://gith
 1) [Reinforcement Learning (RL)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Reinforcement%20Learning%20(RL))
 2) [Recurrent Neural Networks (RNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Recurrent%20Neural%20Networks%20(RNN))
 3) [Graph Neural Networks (GNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Graph%20Neural%20Networks%20(GNN))
-4) [Exploring Some Useful Deep Learning Libraries](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/Exploring%20Some%20Useful%20Deep%20Learning%20Libraries.ipynb), Besides [TensorFlow](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow)
+4) [Exploring Some Useful Deep Learning Libraries](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/Exploring%20Some%20Useful%20Deep%20Learning%20Libraries.ipynb), Other Than [TensorFlow](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow)
 
 Note: Datasets can be found under [Deep Learning/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Data) 
 
