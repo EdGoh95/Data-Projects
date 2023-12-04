@@ -1,0 +1,2 @@
+Deep[[:space:]]Learning/Data/NIPS_1987-2015.csv filter=lfs diff=lfs merge=lfs -text
+Deep[[:space:]]Learning/Data/text8-word2vec.bin filter=lfs diff=lfs merge=lfs -text
