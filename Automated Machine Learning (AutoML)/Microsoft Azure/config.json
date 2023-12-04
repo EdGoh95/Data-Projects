@@ -1,5 +1,5 @@
 {
-    "subscription_id": "0c19fc19-85fd-4aa4-b133-61dd20fa93df",
-    "resource_group": "edwin.spartan117-rg",
-    "workspace_name": "auotml-example-workspace"
+    "subscription_id": <YOUR_SUBSCRIPTION_ID>,
+    "resource_group": <YOUR_RESOURCE_GROUP_NAME>,
+    "workspace_name": <YOUR_WORKSPACE_NAME>
 }
