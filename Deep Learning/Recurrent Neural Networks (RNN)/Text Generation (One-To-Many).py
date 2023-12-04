@@ -11,7 +11,7 @@ import tensorflow as tf
 def download_and_read(urls):
     texts = []
     for index, url in enumerate(urls):
-        p = tf.keras.utils.get_file('ex1-{}.txt'.format(index), url, cache_subdir = 'Data', cache_dir = '.')
+        p = tf.keras.utils.get_file('ex1-{}.txt'.format(index), url, cache_subdir = '../Data', cache_dir = '.')
         text = open(p, 'r').read()
         # Removing the byte order marks
         text = text.replace('\ufeff', '')
@@ -83,7 +83,7 @@ def generate_text(model, prefix_string, char2idx, idx2char, num_chars_to_generat
 for j in range(50//10):
     gutenberg_model.fit(gutenberg_dataset.repeat(), epochs = 10,
                         steps_per_epoch = len(gutenberg_texts)//100//64)
-    checkpoint_file = os.path.join('Data/checkpoints', 'model_epoch_{}'.format(j+1))
+    checkpoint_file = os.path.join('Checkpoints', 'model_epoch_{}'.format(j+1))
     gutenberg_model.save_weights(checkpoint_file)
     generative_model = CharGenModel(vocab_size, 100, 256)
     generative_model.load_weights(checkpoint_file)

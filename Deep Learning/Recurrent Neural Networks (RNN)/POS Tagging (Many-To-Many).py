@@ -110,9 +110,9 @@ POS_tagging_model.summary()
 POS_tagging_model.compile(loss = 'categorical_crossentropy', optimizer = 'adam',
                           metrics = ['accuracy', masked_accuracy()])
 
-best_model_file = os.path.join('Data/Logs (POS Tagging)', 'best_model.h5')
+best_model_file = os.path.join('Logs/POS Tagging)', 'best_model.h5')
 checkpoint = tf.keras.callbacks.ModelCheckpoint(best_model_file, save_weights_only = True,
                                                 save_best_only = True)
-tensorboard = tf.keras.callbacks.TensorBoard(log_dir = 'Data/Logs (POS Tagging)')
+tensorboard = tf.keras.callbacks.TensorBoard(log_dir = 'Logs/POS Tagging)')
 POS_tagging_model_fit = POS_tagging_model.fit(
     training_dataset, epochs = 50, validation_data = validation_dataset, callbacks = [checkpoint, tensorboard])

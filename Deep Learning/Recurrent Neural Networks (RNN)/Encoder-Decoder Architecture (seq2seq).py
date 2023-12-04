@@ -23,7 +23,7 @@ def download_and_read():
     english_sentences = []
     french_sentences_in = []
     french_sentences_out = []
-    local_file = os.path.join('Data/fra-eng', 'fra.txt')
+    local_file = os.path.join('../Data/fra-eng', 'fra.txt')
     with open(local_file, 'r') as file_in:
         for index, line in enumerate(file_in):
             english_sentence = line.strip().split('\t')[0]
@@ -251,7 +251,7 @@ def evaluate_bleu_score(encoder, decoder, test_dataset, french_word2idx, french_
     return np.mean(np.array(bleu_scores))
 
 optimizer = tf.keras.optimizers.Adam()
-checkpoint_prefix = os.path.join('Data', 'checkpoints')
+checkpoint_prefix = 'Checkpoints'
 checkpoint = tf.train.Checkpoint(optimizer = optimizer, encoder = encoder, decoder = decoder)
 for epoch in range(50):
     encoder_state = encoder.init_state(64)

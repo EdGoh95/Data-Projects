@@ -11,8 +11,8 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 def download_and_read(url):
     local_file = url.split('/')[-1]
     local_file = local_file.replace('%20', ' ')
-    p = tf.keras.utils.get_file(local_file, url, extract = True, cache_subdir = 'Data', cache_dir = '.')
-    local_folder = os.path.join('Data', local_file.split('.')[0])
+    p = tf.keras.utils.get_file(local_file, url, extract = True, cache_subdir = '../Data', cache_dir = '.')
+    local_folder = os.path.join('../Data', local_file.split('.')[0])
     labeled_sentences = []
     for labeled_filename in os.listdir(local_folder):
         if labeled_filename.endswith('_labelled.txt'):
@@ -65,9 +65,9 @@ sentiment_analysis = SentimentAnalysisModel(vocab_size + 1, 64)
 sentiment_analysis.build(input_shape = (64, 64))
 sentiment_analysis.summary()
 sentiment_analysis.compile(loss = 'binary_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
-best_model_file = os.path.join('Data/Logs (Sentiment Analysis)', 'best_model.h5')
+best_model_file = os.path.join('Logs/Sentiment Analysis', 'best_model.h5')
 checkpoint = tf.keras.callbacks.ModelCheckpoint(best_model_file, save_weights_only = True, save_best_only = True)
-tensorboard = tf.keras.callbacks.TensorBoard(log_dir = 'Data/Logs (Sentiment Analysis)')
+tensorboard = tf.keras.callbacks.TensorBoard(log_dir = 'Logs/Sentiment Analysis')
 history = sentiment_analysis.fit(training_dataset, epochs = 10, validation_data = validation_dataset,
                                  callbacks = [checkpoint, tensorboard])
 
