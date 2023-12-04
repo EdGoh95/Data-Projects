@@ -29,7 +29,7 @@ Note: Datasets can be found under [Deep Learning/Data](https://github.com/EdGoh9
 
 ## TensorFlow
 1) [Neural Networks (A General Implementation)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Neural%20Networks.py)
-2) [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Natural%20Language%20Processing.py)
+2) [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Neural%20Networks.py)
 3) [Experimenting With Google's Tensor Processing Unit (TPU)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Experimenting%20With%20Google's%20Tensor%20Processing%20Unit%20(TPU).ipynb)
 4) [TensorFlow 2 Ecosystem](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/TensorFlow%202%20Ecosystem.py)
 5) [Convolutional Neural Networks (CNNs)]
