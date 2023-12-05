@@ -21,9 +21,10 @@ Note: Datasets, other than the [HDB Resale Price Price Predictions](https://gith
 
 1) [Self-Supervised Learning](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/Self-Supervised%20Learning.py)
 2) [Reinforcement Learning (RL)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Reinforcement%20Learning%20(RL))
-3) [Recurrent Neural Networks (RNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Recurrent%20Neural%20Networks%20(RNN))
-4) [Graph Neural Networks (GNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Graph%20Neural%20Networks%20(GNN))
-5) [Exploring Some Useful Deep Learning Libraries](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/Exploring%20Some%20Useful%20Deep%20Learning%20Libraries.ipynb), Other Than [TensorFlow](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow)
+3) [Convolutional Neural Networks (CNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Convolutional%20Neural%20Networks%20(CNN))
+4) [Recurrent Neural Networks (RNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Recurrent%20Neural%20Networks%20(RNN))
+5) [Graph Neural Networks (GNNs)](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Graph%20Neural%20Networks%20(GNN))
+6) [Exploring Some Useful Deep Learning Libraries](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/Exploring%20Some%20Useful%20Deep%20Learning%20Libraries.ipynb), Other Than [TensorFlow](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow)
 
 Note: Datasets can be found under [Deep Learning/Data](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/Data) 
 
@@ -33,7 +34,6 @@ Note: Datasets can be found under [Deep Learning/Data](https://github.com/EdGoh9
 3) [AutoEncoders](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/TensorFlow/AutoEncoders)
 4) [Experimenting With Google's Tensor Processing Unit (TPU)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Experimenting%20With%20Google's%20Tensor%20Processing%20Unit%20(TPU).ipynb)
 5) [TensorFlow 2 Ecosystem](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/TensorFlow%202%20Ecosystem.py)
-6) [Convolutional Neural Networks (CNNs)]
 
 Note: Embeddings in the [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Natural%20Language%20Processing.py) script can be found under [Deep Learning/TensorFlow/Embeddings](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/TensorFlow/Embeddings)
 
