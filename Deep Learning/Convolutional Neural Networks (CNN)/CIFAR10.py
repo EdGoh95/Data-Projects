@@ -60,7 +60,7 @@ CIFAR10_model.compile(loss = 'categorical_crossentropy',
                       optimizer = optimizers.RMSprop(learning_rate = lr_schedule), metrics = ['accuracy'])
 CIFAR10_model.summary()
 
-callbacks = [callbacks.TensorBoard(log_dir = 'logs')]
+callbacks = [callbacks.TensorBoard(log_dir = 'Logs')]
 
 # CIFAR10_model.fit(CIFAR10_images_train, CIFAR10_labels_train, batch_size = 64, epochs = 50,
 #                   steps_per_epoch = CIFAR10_images_train.shape[0]//64, validation_split = 0.2,
