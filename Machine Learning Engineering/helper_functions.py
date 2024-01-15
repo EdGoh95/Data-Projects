@@ -384,8 +384,9 @@ def run_hyperparameter_tuning_udf(train, test, params):
     output = {}
     trial_run = Trials()
     hyperparameter_tuning = fmin(fn = partial(
-        params['optimization_function'], train = train, test = test,vloss_metric = params['loss_metric'],  airport = params['airport_name'], experiment_name = params['experiment_name'], trial = trial_run
-        ), space = params['tuning_space'], algo = params['hyperopt_algo'], max_evals = params['iterations'],trials = trial_run)
+        params['optimization_function'], train = train, test = test, loss_metric = params['loss_metric'],  airport = params['airport_name'], 
+        experiment_name = params['experiment_name'], trial = trial_run), space = params['tuning_space'], algo = params['hyperopt_algo'], 
+                                 max_evals = params['iterations'], trials = trial_run)
     best_run = space_eval(params['tuning_space'], hyperparameter_tuning)
     generated_model = params['forecast_algo'](best_run, train, test)
     output['best_hyperparameters'] = best_run
