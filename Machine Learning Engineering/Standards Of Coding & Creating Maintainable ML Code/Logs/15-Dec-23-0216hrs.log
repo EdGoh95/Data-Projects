@@ -1,0 +1,4 @@
+ERROR: 15/12/2023 02:16:04: <class 'ZeroDivisionError'> - Couldn't divide 100 by 0 due to division by zero in divide_values
+ERROR: 2023-12-15 02:16:04.496935: <class 'TypeError'> - Couldn't process the base value of 100 (unsupported operand type(s) for /: 'int' and 'str') in divide_values
+ERROR: 15/12/2023 02:17:22: <class 'ZeroDivisionError'> - Couldn't divide 100 by 0 due to division by zero in divide_values
+ERROR: 2023-12-15 02:17:22.653344: <class 'TypeError'> - Couldn't process the base value of 100 (unsupported operand type(s) for /: 'int' and 'str') in divide_values

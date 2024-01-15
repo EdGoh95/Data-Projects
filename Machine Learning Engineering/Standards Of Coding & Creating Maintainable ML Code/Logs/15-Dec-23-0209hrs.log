@@ -1,0 +1,2 @@
+ERROR: 15/12/2023 02:09:47: <class 'ZeroDivisionError'> - Couldn't divide 100 by 0 due to division by zero in divide_values
+ERROR: 15/12/2023 02:09:47: The return size of the collection doesn't match that was passed in the collection. - Input: 100, Output: 99 in divide_values
