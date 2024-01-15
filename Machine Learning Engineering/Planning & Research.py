@@ -12,7 +12,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 from helper_functions import apply_index_frequency, get_airport_data, generate_outlier_plots, stationary_tests
 
 #%% Exploratory Data Analysis (EDA)
-airport_traffic_df = pd.read_csv('../TCPD/datasets/jfk_passengers/air-passenger-traffic-per-month-port-authority-of-ny-nj-beginning-1977.csv')
+airport_traffic_df = pd.read_csv('TCPD/datasets/jfk_passengers/air-passenger-traffic-per-month-port-authority-of-ny-nj-beginning-1977.csv')
 airport_traffic_df = airport_traffic_df.copy(deep = False)
 airport_traffic_df['Month'] = pd.to_datetime(airport_traffic_df['Month'], format = '%b').dt.month
 airport_traffic_df.loc[:, 'Day'] = 1
