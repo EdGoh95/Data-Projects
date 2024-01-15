@@ -31,8 +31,8 @@ def pull_raw_airport_data(file_location):
                                                 freq = airport_traffic_df.index.inferred_freq)
     return airport_traffic_df.sort_index()
 
-def get_raw_airport_data_spark(spark_session, full_name):
-    airport_traffic_df = spark_session.table(full_name).toPandas()
+def get_raw_airport_data_spark(spark, full_name):
+    airport_traffic_df = spark.table(full_name).toPandas()
     airport_traffic_df = airport_traffic_df.copy(deep = True)
     airport_traffic_df['Date'] = pd.to_datetime(airport_traffic_df['Date'])
     airport_traffic_df.set_index('Date', inplace = True)
@@ -44,8 +44,8 @@ def get_airport_data(airport_name, file_location):
     all_airport_traffic_data = pull_raw_airport_data(file_location)
     return all_airport_traffic_data[all_airport_traffic_data['Airport Code'] == airport_name]
 
-def get_airport_data_spark(spark_session, airport_name, full_name):
-    all_airport_traffic_data = get_raw_airport_data_spark(spark_session, full_name)
+def get_airport_data_spark(spark, airport_name, full_name):
+    all_airport_traffic_data = get_raw_airport_data_spark(spark, full_name)
     return all_airport_traffic_data[all_airport_traffic_data['Airport_Code'] == airport_name]
 
 def get_all_airports(file_location):
@@ -53,8 +53,8 @@ def get_all_airports(file_location):
     unique_airports = all_airport_traffic_data['Airport Code'].unique()
     return np.sort(unique_airports)
 
-def get_all_airports_spark(spark_session, full_name):
-    all_airport_traffic_data = get_raw_airport_data_spark(spark_session, full_name)
+def get_all_airports_spark(full_name):
+    all_airport_traffic_data = get_raw_airport_data_spark(full_name)
     unique_airports = all_airport_traffic_data['Airport_Code'].unique()
     return np.sort(unique_airports)
 
@@ -279,7 +279,7 @@ def plot_predictions(y_actual, y_predicted, param_count, time_series_name, value
                   bbox = dict(boxstyle = 'round', facecolor = 'oldlace', alpha = 0.5))
         validation_output['Plot'] = fig
         plt.tight_layout()
-        plt.savefig(image_name, format = 'svg', dpi = 600)
+        plt.savefig(image_name, format = 'png', dpi = 600)
     return validation_output
 
 def split_correctness(data, train, test):
@@ -384,16 +384,14 @@ def run_hyperparameter_tuning_udf(train, test, params):
     output = {}
     trial_run = Trials()
     hyperparameter_tuning = fmin(fn = partial(
-        params['optimization_function'], train = train, test = test, loss_metric = params['loss_metric'],
-        airport = params['airport_name'], experiment_name = params['experiment_name'], trial = trial_run),
-        space = params['tuning_space'], algo = params['hyperopt_algo'], max_evals = params['iterations'],
-        trials = trial_run)
+        params['optimization_function'], train = train, test = test,vloss_metric = params['loss_metric'],  airport = params['airport_name'], experiment_name = params['experiment_name'], trial = trial_run
+        ), space = params['tuning_space'], algo = params['hyperopt_algo'], max_evals = params['iterations'],trials = trial_run)
     best_run = space_eval(params['tuning_space'], hyperparameter_tuning)
     generated_model = params['forecast_algo'](best_run, train, test)
     output['best_hyperparameters'] = best_run
     output['best_model'] = generated_model['model']
     output['forecast'] = generated_model['forecast']
-    output['plot'] = plot_predictions(test, generated_model['forecast'], param_count,
+    output['plot'] = plot_predictions(test, generated_model['forecast'], param_count, 
                                       params['time_series_name'], params['value_name'],
                                       params['image_name'])
     return output
