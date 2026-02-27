@@ -45,3 +45,4 @@ Note: Embeddings in the [Natural Language Processing (NLP)](https://github.com/E
 
 ## [Machine Learning Engineering](https://github.com/EdGoh95/Data-Projects/tree/main/Machine%20Learning%20Engineering)
 
+## [Building Machine Learning Powered Applications](https://github.com/EdGoh95/Data-Projects/tree/main/Building%20Machine%20Learning%20Powered%20Applications)
