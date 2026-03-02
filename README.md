@@ -7,7 +7,7 @@ This repository contains a collection of data science and machine learning proje
 # Unsupervised Learning
 
 # Time Series Analysis/Forecasting
-1) [Machine Learning for Time Series Forecasting with Python] (https://github.com/EdGoh95/Data-Projects/tree/main/Machine%20Learning%20for%20Time%20Series%20Forecasting%20with%20Python)
+1) [Machine Learning for Time Series Forecasting with Python](https://github.com/EdGoh95/Data-Projects/tree/main/Machine%20Learning%20for%20Time%20Series%20Forecasting%20with%20Python)
 
 # Ensemble Techniques
 Case Studies: 
@@ -42,7 +42,6 @@ Note: Datasets can be found under [Deep Learning/Data](https://github.com/EdGoh9
 Note: Embeddings in the [Natural Language Processing (NLP)](https://github.com/EdGoh95/Data-Projects/blob/main/Deep%20Learning/TensorFlow/Natural%20Language%20Processing.py) script can be found under [Deep Learning/TensorFlow/Embeddings](https://github.com/EdGoh95/Data-Projects/tree/main/Deep%20Learning/TensorFlow/Embeddings)
 
 # Machine Learning (ML) In Production
-
 ## Automated Machine Learning (AutoML)
 1) [Microsoft Azure Machine Learning Service (AMLS)](https://github.com/EdGoh95/Data-Projects/tree/main/Automated%20Machine%20Learning%20(AutoML)/Microsoft%20Azure)
 
