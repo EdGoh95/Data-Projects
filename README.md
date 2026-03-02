@@ -6,6 +6,9 @@ This repository contains a collection of data science and machine learning proje
 
 # Unsupervised Learning
 
+# Time Series Analysis/Forecasting
+1) [Machine Learning for Time Series Forecasting with Python] (https://github.com/EdGoh95/Data-Projects/tree/main/Machine%20Learning%20for%20Time%20Series%20Forecasting%20with%20Python)
+
 # Ensemble Techniques
 Case Studies: 
 1. [Classifying Fraudulent Credit Card Transactions](https://github.com/EdGoh95/Data-Projects/blob/main/Ensemble%20Techniques/Case%20Studies/Credit%20Card%20Fraud%20Detection.py)
