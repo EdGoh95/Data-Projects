@@ -15,7 +15,7 @@ from scipy.sparse import hstack
 from lime.lime_tabular import LimeTabularExplainer
 initial_pipeline = __import__('Chapter 3 - Build Your First End-To-End Pipeline')
 
-ML_Editor_App = Flask(__name__, template_folder = 'Source Code From GitHub/templates/')
+ML_Editor_App = Flask(__name__)
 
 posts_features_df = pd.read_csv('Data Science Posts With Features.csv')
 questions_df = posts_features_df[posts_features_df['is_question']]
