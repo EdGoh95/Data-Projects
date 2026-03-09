@@ -45,3 +45,4 @@ Note: Embeddings in the [Natural Language Processing (NLP)](https://github.com/E
 1) Automated Machine Learning (AutoML) &mdash; [Microsoft Azure Machine Learning Service (AMLS)](https://github.com/EdGoh95/Data-Projects/tree/main/Automated%20Machine%20Learning%20(AutoML)/Microsoft%20Azure)
 2) [Machine Learning Engineering](https://github.com/EdGoh95/Data-Projects/tree/main/Machine%20Learning%20Engineering%20In%20Action)
 3) [Building Machine Learning Powered Applications](https://github.com/EdGoh95/Data-Projects/tree/main/Building%20Machine%20Learning%20Powered%20Applications)
+4) [Machine Learning Infrastructure & Best Practices](https://github.com/EdGoh95/Data-Projects/tree/main/Machine%20Learning%20Infrastructure%20%26%20Best%20Practices%20for%20Software%20Engineers)
