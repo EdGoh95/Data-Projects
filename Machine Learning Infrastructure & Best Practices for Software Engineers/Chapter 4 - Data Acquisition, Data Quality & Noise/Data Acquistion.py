@@ -34,8 +34,7 @@ gerrit_logger.info("Changes retrieved")
 logging.shutdown()
 
 #### JIRA - Issue & Task Management Tool Developed By Atlassian
-# JIRA_instance = Jira(url = "<YOUR_JIRA_SERVER_URL>", # 
-#                     username = '<YOUR_USERNAME>', password = <YOUR_TOKEN>, cloud = True)
+# JIRA_instance = Jira(url = "<YOUR_JIRA_SERVER_URL>", username = '<YOUR_USERNAME>', password = <YOUR_TOKEN>, cloud = True)
 
 #%% Data Extraction From Product Databases - GitHub & Git
 git_pat = "<YOUR_GITHUB_PERSONAL_ACCESS_TOKEN>"
