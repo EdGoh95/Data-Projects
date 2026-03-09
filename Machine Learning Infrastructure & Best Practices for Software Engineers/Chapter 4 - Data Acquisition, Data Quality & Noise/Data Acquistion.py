@@ -34,15 +34,15 @@ gerrit_logger.info("Changes retrieved")
 logging.shutdown()
 
 #### JIRA - Issue & Task Management Tool Developed By Atlassian
-# JIRA_instance = Jira(url = "https://infocepts-teams.atlassian.net", # URL of the JIRA server
-#                     username = 'edwin.goh@infocepts.com', password = <YOUR_TOKEN>, cloud = True)
+# JIRA_instance = Jira(url = "<YOUR_JIRA_SERVER_URL>", # 
+#                     username = '<YOUR_USERNAME>', password = <YOUR_TOKEN>, cloud = True)
 
 #%% Data Extraction From Product Databases - GitHub & Git
-git_pat = "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"
+git_pat = "<YOUR_GITHUB_PERSONAL_ACCESS_TOKEN>"
 git_instance = Github(git_pat, per_page = 100)
 
 #### From My Repository
-my_repo = git_instance.get_repo("EdGoh95/Data-Projects")
+my_repo = git_instance.get_repo("<YOUR_GITHUB_REPOSITORY_NAME>")
 my_commits = my_repo.get_commits()
 print('Repository name:', my_repo.full_name)
 print('Number of commits:', my_commits.totalCount)
