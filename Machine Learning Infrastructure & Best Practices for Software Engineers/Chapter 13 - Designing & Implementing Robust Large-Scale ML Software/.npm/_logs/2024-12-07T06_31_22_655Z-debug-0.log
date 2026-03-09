@@ -1,0 +1,113 @@
+0 verbose cli /opt/anaconda3/envs/PyTorch/bin/node /opt/anaconda3/envs/PyTorch/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:/opt/anaconda3/envs/PyTorch/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/edwinjosiahgoh95/.npmrc
+5 silly config load:file:/opt/anaconda3/envs/PyTorch/etc/npmrc
+6 verbose title npm install npm@10.9.2
+7 verbose argv "install" "--global" "npm@10.9.2"
+8 verbose logfile logs-max:10 dir:/Users/edwinjosiahgoh95/.npm/_logs/2024-12-07T06_31_22_655Z-
+9 verbose logfile /Users/edwinjosiahgoh95/.npm/_logs/2024-12-07T06_31_22_655Z-debug-0.log
+10 silly logfile done cleaning log files
+11 http fetch GET 200 https://registry.npmjs.org/npm 109ms (cache miss)
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest npm@10.9.2
+15 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 1106ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/npm set size:undefined disposed:false
+18 silly placeDep ROOT npm@10.9.2 OK for:  want: 10.9.2
+19 silly reify mark retired [
+19 silly reify   '/opt/anaconda3/envs/PyTorch/lib/node_modules/npm',
+19 silly reify   '/opt/anaconda3/envs/PyTorch/bin/npm',
+19 silly reify   '/opt/anaconda3/envs/PyTorch/bin/npx'
+19 silly reify ]
+20 silly reify moves {
+20 silly reify   '/opt/anaconda3/envs/PyTorch/lib/node_modules/npm': '/opt/anaconda3/envs/PyTorch/lib/node_modules/.npm-ubZyy9Bv',
+20 silly reify   '/opt/anaconda3/envs/PyTorch/bin/npm': '/opt/anaconda3/envs/PyTorch/bin/.npm-TjRh9FEG',
+20 silly reify   '/opt/anaconda3/envs/PyTorch/bin/npx': '/opt/anaconda3/envs/PyTorch/bin/.npx-rZMexZam'
+20 silly reify }
+21 silly tarball no local data for npm@https://registry.npmjs.org/npm/-/npm-10.9.2.tgz. Extracting by manifest.
+22 http fetch GET 200 https://registry.npmjs.org/npm/-/npm-10.9.2.tgz 430ms (cache miss)
+23 silly CHANGE node_modules/npm
+24 silly CHANGE node_modules/npm/node_modules/@sigstore/tuf
+25 silly REMOVE node_modules/npm/node_modules/@tufjs/models
+26 silly REMOVE node_modules/npm/node_modules/@sigstore/verify
+27 silly REMOVE node_modules/npm/node_modules/@sigstore/sign
+28 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/@npmcli/fs
+29 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/@npmcli/agent
+30 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/unique-slug
+31 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/ssri
+32 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/unique-filename
+33 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/proc-log
+34 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/minipass-fetch
+35 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/make-fetch-happen
+36 silly REMOVE node_modules/npm/node_modules/@sigstore/sign/node_modules/cacache
+37 silly REMOVE node_modules/npm/node_modules/@sigstore/core
+38 silly CHANGE node_modules/npm/node_modules/@isaacs/cliui/node_modules/ansi-regex
+39 silly REMOVE node_modules/npm/node_modules/@sigstore/bundle
+40 silly CHANGE node_modules/npm/node_modules/@npmcli/run-script
+41 silly CHANGE node_modules/npm/node_modules/@npmcli/promise-spawn
+42 silly CHANGE node_modules/npm/node_modules/@npmcli/package-json
+43 silly CHANGE node_modules/npm/node_modules/@npmcli/metavuln-calculator
+44 silly CHANGE node_modules/npm/node_modules/@npmcli/installed-package-contents
+45 silly CHANGE node_modules/npm/node_modules/@npmcli/map-workspaces
+46 silly CHANGE node_modules/npm/node_modules/@npmcli/arborist
+47 silly CHANGE node_modules/npm/node_modules/wrap-ansi/node_modules/ansi-regex
+48 silly CHANGE node_modules/npm/node_modules/which
+49 silly CHANGE node_modules/npm/node_modules/tuf-js
+50 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/@npmcli/fs
+51 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/@npmcli/agent
+52 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/unique-slug
+53 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/unique-filename
+54 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/ssri
+55 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/proc-log
+56 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/minipass-fetch
+57 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/cacache
+58 silly REMOVE node_modules/npm/node_modules/tuf-js/node_modules/make-fetch-happen
+59 silly CHANGE node_modules/npm/node_modules/spdx-license-ids
+60 silly CHANGE node_modules/npm/node_modules/sigstore
+61 silly CHANGE node_modules/npm/node_modules/rimraf
+62 silly CHANGE node_modules/npm/node_modules/qrcode-terminal
+63 silly CHANGE node_modules/npm/node_modules/semver
+64 silly CHANGE node_modules/npm/node_modules/promise-call-limit
+65 silly CHANGE node_modules/npm/node_modules/package-json-from-dist
+66 silly CHANGE node_modules/npm/node_modules/pacote
+67 silly CHANGE node_modules/npm/node_modules/npm-registry-fetch
+68 silly CHANGE node_modules/npm/node_modules/npm-install-checks
+69 silly CHANGE node_modules/npm/node_modules/mkdirp
+70 silly CHANGE node_modules/npm/node_modules/nopt
+71 silly REMOVE node_modules/npm/node_modules/negotiator
+72 silly CHANGE node_modules/npm/node_modules/node-gyp
+73 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/@npmcli/fs
+74 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/@npmcli/agent
+75 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/unique-filename
+76 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/unique-slug
+77 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/which
+78 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/proc-log
+79 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/nopt
+80 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/ssri
+81 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/minipass-fetch
+82 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/isexe
+83 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/cacache
+84 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/make-fetch-happen
+85 silly REMOVE node_modules/npm/node_modules/node-gyp/node_modules/abbrev
+86 silly CHANGE node_modules/npm/node_modules/make-fetch-happen
+87 silly CHANGE node_modules/npm/node_modules/libnpmpublish
+88 silly REMOVE node_modules/npm/node_modules/is-lambda
+89 silly CHANGE node_modules/npm/node_modules/init-package-json
+90 silly CHANGE node_modules/npm/node_modules/hosted-git-info
+91 silly CHANGE node_modules/npm/node_modules/glob
+92 silly CHANGE node_modules/npm/node_modules/cssesc
+93 silly CHANGE node_modules/npm/node_modules/cross-spawn
+94 silly CHANGE node_modules/npm/node_modules/cross-spawn/node_modules/which
+95 silly CHANGE node_modules/npm/node_modules/debug
+96 silly REMOVE node_modules/npm/node_modules/debug/node_modules/ms
+97 silly CHANGE node_modules/npm/node_modules/ci-info
+98 silly CHANGE node_modules/npm/node_modules/cacache/node_modules/mkdirp
+99 verbose cwd /Users/edwinjosiahgoh95
+100 verbose os Darwin 24.1.0
+101 verbose node v22.11.0
+102 verbose npm  v10.9.0
+103 verbose exit 0
+104 info ok

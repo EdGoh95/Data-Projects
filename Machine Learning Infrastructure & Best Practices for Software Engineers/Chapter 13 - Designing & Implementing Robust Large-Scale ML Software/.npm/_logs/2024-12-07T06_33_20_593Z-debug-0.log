@@ -1,0 +1,16 @@
+0 verbose cli /opt/anaconda3/envs/PyTorch/bin/node /opt/anaconda3/envs/PyTorch/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.11.0
+3 silly config load:file:/opt/anaconda3/envs/PyTorch/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/edwinjosiahgoh95/.npmrc
+5 silly config load:file:/opt/anaconda3/envs/PyTorch/etc/npmrc
+6 verbose title npm root
+7 verbose argv "root" "--global"
+8 verbose logfile logs-max:10 dir:/Users/edwinjosiahgoh95/.npm/_logs/2024-12-07T06_33_20_593Z-
+9 verbose logfile /Users/edwinjosiahgoh95/.npm/_logs/2024-12-07T06_33_20_593Z-debug-0.log
+10 verbose cwd /Users/edwinjosiahgoh95
+11 verbose os Darwin 24.1.0
+12 verbose node v22.11.0
+13 verbose npm  v10.9.2
+14 verbose exit 0
+15 info ok
