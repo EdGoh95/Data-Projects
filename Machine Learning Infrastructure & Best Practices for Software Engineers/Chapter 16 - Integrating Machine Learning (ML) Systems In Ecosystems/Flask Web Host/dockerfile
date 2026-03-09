@@ -1,0 +1,13 @@
+FROM alpine:latest
+RUN apk update
+RUN apk add --no-cache python3-dev py3-pip bash
+ENTRYPOINT /bin/bash
+RUN echo 'alias ll="ls -l"' >> /root/.bashrc
+RUN source /root/.bashrc
+RUN python3 -m venv /usr/bin/flask
+ENV PATH="/usr/bin/flask/bin:$PATH"
+WORKDIR /web-app
+COPY . /web-app
+RUN pip install --upgrade pip
+RUN pip --no-cache-dir install -r requirements.txt
+CMD ['python3', "'Web Service Using Flask.py'"]

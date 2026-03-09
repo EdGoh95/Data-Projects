@@ -1,0 +1,10 @@
+FROM ubuntu:latest
+RUN apt-get update
+RUN apt-get install python3 python3-pip pipx -y
+RUN python3 -m venv /usr/bin/flask
+ENV PATH="/usr/bin/flask/bin:$PATH"
+WORKDIR /web-app
+COPY . /web-app
+RUN pip --no-cache-dir install -r requirements.txt
+ENTRYPOINT /bin/bash
+CMD ["python3", "Web Service Hosting A Pre-Trained ML Model Using Flask.py"]

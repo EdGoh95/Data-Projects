@@ -1,0 +1,29 @@
+<html>   
+<head>   
+    <title> Machine Learning Infrastructure & Best practices for Software Engineers: Chapter 16 - Upload a file to make predictions </title>   
+</head>   
+<body>   
+    <h1> Machine Learning Infrastructure & Best Practices for Software Engineers Chapter 16: Integrating ML Systems in Ecosystems </h1>
+
+    <p> This page allows developers to upload a file to a web service which was written using Flask. The web application behind this interface calculates metrics that are important for the predictions. It returns a JSON string with the metrics.  </p>
+
+    <p> We need another web application that contains the model in order to actually get the predictions on whether the file contains defects or not. </p>
+
+    <h1> Upload a file to make predictions </h1>
+    <p> The file should be of the following formats:
+    <ul>
+        <li> <em> .c </em> </li>
+        <li> <em> .cpp </em> </li>
+    </ul>
+    </p>
+
+    <form action = "/success" method = "post" enctype="multipart/form-data">   
+        <input type="file" name="file" />   
+        <input type = "submit" value="Upload">   
+    </form>
+    
+    <p> Disclaimer: The container saves the file in its local folder, so don't send any sensitive files for analysis. </p>
+
+    <p> This is a research prototype </p>
+</body>   
+</html>
