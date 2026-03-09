@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/edwinjosiahgoh95/Documents/Data%20Science%3AAnalytics/Machine%20Learning%20Infrastructure%20%26%20Best%20Practices%20for%20Software%20Engineers/Chapter%2011%20-%20Training%20%26%20Evaluation%20Of%20Advanced%20ML%20Algorithms%20%28GPT%20%26%20AutoEncoders%29/mlruns/0/105e3c4d747a47d7b25988d281835817/artifacts
+end_time: 1733244062754
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 105e3c4d747a47d7b25988d281835817
+run_name: WolfSSL ROBERTa Model
+run_uuid: 105e3c4d747a47d7b25988d281835817
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733244029571
+status: 3
+tags: []
+user_id: edwinjosiahgoh95
