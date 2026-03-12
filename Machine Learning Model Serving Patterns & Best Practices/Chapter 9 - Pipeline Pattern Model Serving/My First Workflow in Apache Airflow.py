@@ -8,7 +8,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 
 with DAG('My-First-Workflow',
-         default_args = {'depends_on_past': False, 'email': ['edwin.spartan117@yahoo.com.sg'],
+         default_args = {'depends_on_past': False, 'email': ['<YOUR_EMAIL>'],
                          'email_on_failure': True, 'email_on_retry': False, 'retries': 3,
                          'retry_delay': timedelta(minutes = 5)},
          description = 'My first DAG', schedule_interval = timedelta(days = 1),
