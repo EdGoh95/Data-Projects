@@ -5,6 +5,6 @@ Chapter 9: Pipeline Pattern Model Serving
 """
 import os
 
-if not os.path.exists('/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data'):
-    os.mkdir('/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data')
+if not os.path.exists('../airflow/DAGs/Stages/Data'):
+    os.mkdir('../airflow/DAGs/Stages/Data')
     print('Data directory has been created!')

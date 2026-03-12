@@ -7,8 +7,8 @@ import pandas as pd
 import pickle
 from sklearn.linear_model import LogisticRegression
 
-df = pd.read_csv('/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data/Combined.csv')
+df = pd.read_csv('../airflow/DAGs/Stages/Data/Combined.csv')
 logreg_model = LogisticRegression(random_state = 0).fit(df['X'].to_numpy().reshape(-1, 1), df['Y'])
 
-with open('/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Demo Model.pkl', 'wb') as file:
+with open('../airflow/DAGs/Stages/Demo Model.pkl', 'wb') as file:
     pickle.dump(logreg_model, file)
