@@ -14,9 +14,9 @@ with DAG('My-First-Workflow',
          description = 'My first DAG', schedule_interval = timedelta(days = 1),
          start_date = datetime(2025, 1, 15), catchup = False, tags = ['Test']) as dag:
     t1 = BashOperator(task_id = 'Stage_1',
-                      bash_command = 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stage 1.py"')
+                      bash_command = 'python3 "../airflow/DAGs/Stage 1.py"')
 
     t2 = BashOperator(task_id = 'Stage_2',
-                      bash_command = 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stage 2.py"')
+                      bash_command = 'python3 "../airflow/DAGs/Stage 2.py"')
 
     t1 >> t2
