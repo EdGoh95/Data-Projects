@@ -16,22 +16,22 @@ with DAG('Demo-ML-Pipeline',
          tags = ['ML-Pipelines']) as dag:
     init_data_directory = BashOperator(
         task_id = 'Initialize_Data_Directory',
-        bash_command = 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Initialize Data Directory.py"')
+        bash_command = 'python3 "../airflow/DAGs/Stages/Initialize Data Directory.py"')
 
     data_collection_source1 = BashOperator(
         task_id = 'Source_1_Data_Collection',
-        bash_command = 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data Collector - Source 1.py"')
+        bash_command = 'python3 "../airflow/DAGs/Stages/Data Collector - Source 1.py"')
 
     data_collection_source2 = BashOperator(
         task_id = 'Source_2_Data_Collection',
-        bash_command = 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data Collector - Source 2.py"')
+        bash_command = 'python3 "../airflow/DAGs/Stages/Data Collector - Source 2.py"')
 
     data_combiner = BashOperator(
         task_id = 'Combining_Data_From_Different_Sources',
-        bash_command = 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Combining Data From Different Sources.py"')
+        bash_command = 'python3 "../airflow/DAGs/Stages/Combining Data From Different Sources.py"')
 
     model_training = BashOperator(
         task_id = 'Model_Training',
-        bash_command = 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py"')
+        bash_command = 'python3 "../airflow/DAGs/Stages/train.py"')
 
     init_data_directory >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
