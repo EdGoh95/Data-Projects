@@ -1,0 +1,9 @@
+service: "service:Iris_Classification"
+labels:
+    stage: demo
+include:
+    - '*.py'
+python:
+    packages:
+    - scikit-learn
+    - pandas

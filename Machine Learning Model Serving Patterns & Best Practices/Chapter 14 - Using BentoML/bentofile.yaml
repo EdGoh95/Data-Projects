@@ -1,0 +1,10 @@
+service: "service:randforest_regression_service"
+labels:
+    owner: Edwin
+    stage: dev
+include:
+    - "*.py"
+python:
+    packages:
+    - scikit-learn
+    - numpy
