@@ -1,0 +1,503 @@
+[2025-01-15T13:02:45.461+0800] {processor.py:186} INFO - Started process (PID=53771) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:02:45.461+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:02:45.462+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:02:45.462+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:02:45.465+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:02:45.463+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 9, in <module>
+    with DAG('Demo-ML-Pipeline',
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dag.py", line 650, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2025-01-15T13:02:45.465+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:02:45.725+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.266 seconds
+[2025-01-15T13:03:26.399+0800] {processor.py:186} INFO - Started process (PID=54150) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:03:26.399+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:03:26.400+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:03:26.400+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:03:26.403+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:03:26.401+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 9, in <module>
+    with DAG('Demo-ML-Pipeline',
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dag.py", line 650, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2025-01-15T13:03:26.403+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:03:26.716+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.319 seconds
+[2025-01-15T13:05:02.024+0800] {processor.py:186} INFO - Started process (PID=55055) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:05:02.025+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:05:02.025+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:05:02.025+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:05:02.028+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:05:02.027+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:05:02.028+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:05:02.400+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.378 seconds
+[2025-01-15T13:06:34.275+0800] {processor.py:186} INFO - Started process (PID=55895) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:06:34.277+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:06:34.277+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:06:34.277+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:06:34.279+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:06:34.279+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:06:34.279+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:06:34.540+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.267 seconds
+[2025-01-15T13:08:08.292+0800] {processor.py:186} INFO - Started process (PID=56785) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:08:08.293+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:08:08.294+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:08:08.294+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:08:08.296+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:08:08.295+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:08:08.296+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:08:08.613+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.323 seconds
+[2025-01-15T13:09:40.452+0800] {processor.py:186} INFO - Started process (PID=57672) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:09:40.453+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:09:40.454+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:09:40.454+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:09:40.456+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:09:40.455+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:09:40.456+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:09:40.780+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.329 seconds
+[2025-01-15T13:11:12.120+0800] {processor.py:186} INFO - Started process (PID=58532) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:11:12.120+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:11:12.121+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:11:12.121+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:11:12.123+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:11:12.122+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:11:12.123+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:11:12.476+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.359 seconds
+[2025-01-15T13:12:42.218+0800] {processor.py:186} INFO - Started process (PID=59333) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:12:42.219+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:12:42.220+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:12:42.220+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:12:42.222+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:12:42.221+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:12:42.222+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:12:42.476+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.260 seconds
+[2025-01-15T13:14:11.516+0800] {processor.py:186} INFO - Started process (PID=60134) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:14:11.517+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:14:11.518+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:14:11.518+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:14:11.520+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:14:11.519+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:14:11.520+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:14:11.853+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.339 seconds
+[2025-01-15T13:15:43.207+0800] {processor.py:186} INFO - Started process (PID=60955) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:15:43.209+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:15:43.209+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:15:43.209+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:15:43.211+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:15:43.211+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:15:43.212+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:15:43.471+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.266 seconds
+[2025-01-15T13:17:13.379+0800] {processor.py:186} INFO - Started process (PID=61746) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:17:13.380+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:17:13.381+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:17:13.381+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:17:13.383+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:17:13.382+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:17:13.383+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:17:13.647+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.270 seconds
+[2025-01-15T13:18:48.384+0800] {processor.py:186} INFO - Started process (PID=62613) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:18:48.385+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:18:48.386+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:18:48.385+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:18:48.388+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:18:48.387+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:18:48.388+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:18:48.738+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.355 seconds
+[2025-01-15T13:20:29.180+0800] {processor.py:186} INFO - Started process (PID=63560) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:20:29.181+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:20:29.182+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:20:29.182+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:20:29.184+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:20:29.183+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:20:29.185+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:20:29.508+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.329 seconds
+[2025-01-15T13:22:03.732+0800] {processor.py:186} INFO - Started process (PID=64425) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:22:03.733+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:22:03.734+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:22:03.734+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:22:03.736+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:22:03.735+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:22:03.736+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:22:04.013+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.283 seconds
+[2025-01-15T13:23:35.104+0800] {processor.py:186} INFO - Started process (PID=65260) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:23:35.105+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:23:35.106+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:23:35.106+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:23:35.108+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:23:35.107+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py", line 16, in <module>
+    init_data_dictionary >> [data_collection_source1, data_collection_source2] >> data_combiner >> model_training
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'init_data_dictionary' is not defined
+[2025-01-15T13:23:35.108+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:23:35.423+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.321 seconds
+[2025-01-15T13:25:07.771+0800] {processor.py:186} INFO - Started process (PID=66065) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:25:07.772+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:25:07.773+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.773+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:25:07.778+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:25:07.913+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.912+0800] {override.py:1912} INFO - Created Permission View: can delete on DAG:Demo-ML-Pipeline
+[2025-01-15T13:25:07.916+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.916+0800] {override.py:1912} INFO - Created Permission View: can read on DAG:Demo-ML-Pipeline
+[2025-01-15T13:25:07.918+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.918+0800] {override.py:1912} INFO - Created Permission View: can edit on DAG:Demo-ML-Pipeline
+[2025-01-15T13:25:07.921+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.921+0800] {override.py:1912} INFO - Created Permission View: can create on DAG Run:Demo-ML-Pipeline
+[2025-01-15T13:25:07.923+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.923+0800] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:Demo-ML-Pipeline
+[2025-01-15T13:25:07.925+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.925+0800] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:Demo-ML-Pipeline
+[2025-01-15T13:25:07.927+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.927+0800] {override.py:1912} INFO - Created Permission View: can read on DAG Run:Demo-ML-Pipeline
+[2025-01-15T13:25:07.927+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.927+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:25:07.931+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.931+0800] {dag.py:3262} INFO - Creating ORM DAG for Demo-ML-Pipeline
+[2025-01-15T13:25:07.936+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:25:07.935+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:20:00+00:00, run_after=2025-01-15 05:25:00+00:00
+[2025-01-15T13:25:07.943+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.174 seconds
+[2025-01-15T13:26:40.508+0800] {processor.py:186} INFO - Started process (PID=66876) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:26:40.509+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:26:40.510+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:26:40.510+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:26:40.514+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:26:40.552+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:26:40.552+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:26:40.601+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:26:40.601+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:20:00+00:00, run_after=2025-01-15 05:25:00+00:00
+[2025-01-15T13:26:40.610+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.103 seconds
+[2025-01-15T13:28:11.422+0800] {processor.py:186} INFO - Started process (PID=67673) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:28:11.424+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:28:11.424+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:28:11.424+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:28:11.429+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:28:11.464+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:28:11.464+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:28:11.509+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:28:11.509+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:20:00+00:00, run_after=2025-01-15 05:25:00+00:00
+[2025-01-15T13:28:11.515+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.095 seconds
+[2025-01-15T13:29:44.842+0800] {processor.py:186} INFO - Started process (PID=68507) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:29:44.843+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:29:44.843+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:29:44.843+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:29:44.848+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:29:44.885+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:29:44.885+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:29:44.930+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:29:44.930+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:20:00+00:00, run_after=2025-01-15 05:25:00+00:00
+[2025-01-15T13:29:44.937+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.097 seconds
+[2025-01-15T13:31:19.953+0800] {processor.py:186} INFO - Started process (PID=69395) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:31:19.954+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:31:19.955+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:31:19.955+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:31:19.959+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:31:19.997+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:31:19.997+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:31:20.050+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:31:20.050+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:25:00+00:00, run_after=2025-01-15 05:30:00+00:00
+[2025-01-15T13:31:20.058+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.106 seconds
+[2025-01-15T13:32:54.709+0800] {processor.py:186} INFO - Started process (PID=70241) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:32:54.711+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:32:54.711+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:32:54.711+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:32:54.716+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:32:54.752+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:32:54.752+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:32:54.797+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:32:54.797+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:25:00+00:00, run_after=2025-01-15 05:30:00+00:00
+[2025-01-15T13:32:54.804+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.097 seconds
+[2025-01-15T13:34:30.110+0800] {processor.py:186} INFO - Started process (PID=71101) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:34:30.112+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:34:30.112+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:34:30.112+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:34:30.117+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:34:30.155+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:34:30.155+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:34:30.202+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:34:30.201+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:25:00+00:00, run_after=2025-01-15 05:30:00+00:00
+[2025-01-15T13:34:30.208+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.100 seconds
+[2025-01-15T13:36:04.713+0800] {processor.py:186} INFO - Started process (PID=71973) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:36:04.713+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:36:04.714+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:36:04.714+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:36:04.719+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:36:04.758+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:36:04.757+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:36:04.813+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:36:04.813+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:30:00+00:00, run_after=2025-01-15 05:35:00+00:00
+[2025-01-15T13:36:04.821+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.110 seconds
+[2025-01-15T13:37:38.938+0800] {processor.py:186} INFO - Started process (PID=72826) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:37:38.940+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:37:38.940+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:37:38.940+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:37:38.945+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:37:38.981+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:37:38.981+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:37:39.027+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:37:39.027+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:30:00+00:00, run_after=2025-01-15 05:35:00+00:00
+[2025-01-15T13:37:39.035+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.098 seconds
+[2025-01-15T13:39:13.289+0800] {processor.py:186} INFO - Started process (PID=73748) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:39:13.291+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:39:13.291+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:39:13.291+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:39:13.296+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:39:13.333+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:39:13.333+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:39:13.381+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:39:13.381+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:30:00+00:00, run_after=2025-01-15 05:35:00+00:00
+[2025-01-15T13:39:13.388+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.100 seconds
+[2025-01-15T13:40:46.591+0800] {processor.py:186} INFO - Started process (PID=74592) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:40:46.592+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:40:46.592+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:40:46.592+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:40:46.598+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:40:46.635+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:40:46.635+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:40:46.680+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:40:46.679+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:35:00+00:00, run_after=2025-01-15 05:40:00+00:00
+[2025-01-15T13:40:46.686+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.097 seconds
+[2025-01-15T13:42:18.729+0800] {processor.py:186} INFO - Started process (PID=75401) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:42:18.731+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:42:18.731+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:42:18.731+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:42:18.737+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:42:18.777+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:42:18.777+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:42:18.826+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:42:18.826+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:35:00+00:00, run_after=2025-01-15 05:40:00+00:00
+[2025-01-15T13:42:18.834+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.107 seconds
+[2025-01-15T13:43:47.939+0800] {processor.py:186} INFO - Started process (PID=76230) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:43:47.940+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:43:47.941+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:43:47.941+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:43:47.948+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:43:47.987+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:43:47.987+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:43:48.041+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:43:48.041+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:35:00+00:00, run_after=2025-01-15 05:40:00+00:00
+[2025-01-15T13:43:48.048+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.111 seconds
+[2025-01-15T13:45:20.757+0800] {processor.py:186} INFO - Started process (PID=77145) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:45:20.759+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:45:20.759+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:45:20.759+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:45:20.764+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:45:20.800+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:45:20.800+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:45:20.847+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:45:20.846+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:40:00+00:00, run_after=2025-01-15 05:45:00+00:00
+[2025-01-15T13:45:20.853+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.098 seconds
+[2025-01-15T13:46:52.743+0800] {processor.py:186} INFO - Started process (PID=78046) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:46:52.744+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:46:52.745+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:46:52.745+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:46:52.751+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:46:52.790+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:46:52.790+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:46:52.840+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:46:52.840+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:40:00+00:00, run_after=2025-01-15 05:45:00+00:00
+[2025-01-15T13:46:52.847+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.105 seconds
+[2025-01-15T13:48:25.617+0800] {processor.py:186} INFO - Started process (PID=78949) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:48:25.618+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:48:25.619+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:48:25.619+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:48:25.624+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:48:25.663+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:48:25.663+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:48:25.711+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:48:25.711+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:40:00+00:00, run_after=2025-01-15 05:45:00+00:00
+[2025-01-15T13:48:25.718+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.102 seconds
+[2025-01-15T13:49:59.232+0800] {processor.py:186} INFO - Started process (PID=79805) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:49:59.233+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:49:59.233+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:49:59.233+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:49:59.238+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:49:59.277+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:49:59.277+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:49:59.324+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:49:59.324+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:40:00+00:00, run_after=2025-01-15 05:45:00+00:00
+[2025-01-15T13:49:59.331+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.102 seconds
+[2025-01-15T13:51:33.862+0800] {processor.py:186} INFO - Started process (PID=80729) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:51:33.863+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:51:33.864+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:51:33.864+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:51:33.868+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:51:33.904+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:51:33.904+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:51:33.950+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:51:33.950+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:45:00+00:00, run_after=2025-01-15 05:50:00+00:00
+[2025-01-15T13:51:33.957+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.097 seconds
+[2025-01-15T13:53:18.407+0800] {processor.py:186} INFO - Started process (PID=81651) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:53:18.408+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:53:18.408+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:53:18.408+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:53:18.413+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:53:18.454+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:53:18.454+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:53:18.506+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:53:18.505+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:45:00+00:00, run_after=2025-01-15 05:50:00+00:00
+[2025-01-15T13:53:18.512+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.108 seconds
+[2025-01-15T13:55:34.965+0800] {processor.py:186} INFO - Started process (PID=82911) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:55:34.966+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:55:34.967+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:55:34.967+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:55:34.971+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:55:35.010+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:55:35.010+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:55:35.057+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:55:35.056+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:55:00+00:00, run_after=2025-01-15 06:00:00+00:00
+[2025-01-15T13:55:35.063+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.100 seconds
+[2025-01-15T13:57:38.731+0800] {processor.py:186} INFO - Started process (PID=84170) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:57:38.732+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:57:38.733+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:57:38.733+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:57:38.741+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:57:38.786+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:57:38.786+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:57:38.838+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:57:38.838+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:55:00+00:00, run_after=2025-01-15 06:00:00+00:00
+[2025-01-15T13:57:38.845+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.117 seconds
+[2025-01-15T13:59:31.021+0800] {processor.py:186} INFO - Started process (PID=85267) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:59:31.022+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T13:59:31.023+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:59:31.023+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:59:31.030+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T13:59:31.069+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:59:31.069+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T13:59:31.118+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:59:31.118+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 05:55:00+00:00, run_after=2025-01-15 06:00:00+00:00
+[2025-01-15T13:59:31.125+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.106 seconds
+[2025-01-15T14:01:37.709+0800] {processor.py:186} INFO - Started process (PID=86460) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:01:37.710+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:01:37.710+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:01:37.710+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:01:37.716+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:01:37.753+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:01:37.753+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:01:37.807+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:01:37.807+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:00:00+00:00, run_after=2025-01-15 06:05:00+00:00
+[2025-01-15T14:01:37.815+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.107 seconds
+[2025-01-15T14:03:26.135+0800] {processor.py:186} INFO - Started process (PID=87485) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:03:26.136+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:03:26.137+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:03:26.136+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:03:26.143+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:03:26.185+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:03:26.185+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:03:26.231+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:03:26.231+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:00:00+00:00, run_after=2025-01-15 06:05:00+00:00
+[2025-01-15T14:03:26.238+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.105 seconds
+[2025-01-15T14:05:21.935+0800] {processor.py:186} INFO - Started process (PID=88576) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:05:21.937+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:05:21.937+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:05:21.937+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:05:21.941+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:05:21.978+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:05:21.978+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:05:22.024+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:05:22.024+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:05:00+00:00, run_after=2025-01-15 06:10:00+00:00
+[2025-01-15T14:05:22.032+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.099 seconds
+[2025-01-15T14:07:19.055+0800] {processor.py:186} INFO - Started process (PID=89692) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:07:19.056+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:07:19.057+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:07:19.057+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:07:19.067+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:07:19.110+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:07:19.110+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:07:19.164+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:07:19.164+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:05:00+00:00, run_after=2025-01-15 06:10:00+00:00
+[2025-01-15T14:07:19.173+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.120 seconds
+[2025-01-15T14:09:19.905+0800] {processor.py:186} INFO - Started process (PID=90817) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:09:19.906+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:09:19.907+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:09:19.906+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:09:19.911+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:09:19.951+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:09:19.950+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:09:20.001+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:09:20.000+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:05:00+00:00, run_after=2025-01-15 06:10:00+00:00
+[2025-01-15T14:09:20.007+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.104 seconds
+[2025-01-15T14:11:22.984+0800] {processor.py:186} INFO - Started process (PID=92002) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:11:22.986+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:11:22.986+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:11:22.986+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:11:22.994+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:11:23.036+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:11:23.036+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:11:23.088+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:11:23.088+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:10:00+00:00, run_after=2025-01-15 06:15:00+00:00
+[2025-01-15T14:11:23.095+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.113 seconds
+[2025-01-15T14:13:11.440+0800] {processor.py:186} INFO - Started process (PID=92985) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:13:11.441+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:13:11.442+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:13:11.442+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:13:11.449+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:13:11.490+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:13:11.490+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:13:11.537+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:13:11.537+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:10:00+00:00, run_after=2025-01-15 06:15:00+00:00
+[2025-01-15T14:13:11.544+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.105 seconds
+[2025-01-15T14:14:57.541+0800] {processor.py:186} INFO - Started process (PID=93997) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:14:57.543+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:14:57.543+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:14:57.543+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:14:57.550+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:14:57.594+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:14:57.594+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:14:57.641+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:14:57.641+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:10:00+00:00, run_after=2025-01-15 06:15:00+00:00
+[2025-01-15T14:14:57.648+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.109 seconds
+[2025-01-15T14:16:55.537+0800] {processor.py:186} INFO - Started process (PID=95124) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:16:55.539+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:16:55.540+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:16:55.539+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:16:55.547+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:16:55.593+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:16:55.593+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:16:55.647+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:16:55.647+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:15:00+00:00, run_after=2025-01-15 06:20:00+00:00
+[2025-01-15T14:16:55.654+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.118 seconds
+[2025-01-15T14:18:53.095+0800] {processor.py:186} INFO - Started process (PID=96199) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:18:53.096+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:18:53.096+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:18:53.096+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:18:53.103+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:18:53.145+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:18:53.145+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:18:53.199+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:18:53.199+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:15:00+00:00, run_after=2025-01-15 06:20:00+00:00
+[2025-01-15T14:18:53.206+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.113 seconds
+[2025-01-15T14:20:47.352+0800] {processor.py:186} INFO - Started process (PID=97236) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:20:47.352+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:20:47.353+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:20:47.353+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:20:47.358+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:20:47.396+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:20:47.396+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:20:47.442+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:20:47.442+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:20:00+00:00, run_after=2025-01-15 06:25:00+00:00
+[2025-01-15T14:20:47.449+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.100 seconds
+[2025-01-15T14:22:45.930+0800] {processor.py:186} INFO - Started process (PID=98327) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:22:45.932+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:22:45.932+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:22:45.932+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:22:45.939+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:22:45.977+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:22:45.977+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:22:46.023+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:22:46.023+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:20:00+00:00, run_after=2025-01-15 06:25:00+00:00
+[2025-01-15T14:22:46.030+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.102 seconds
+[2025-01-15T14:24:27.673+0800] {processor.py:186} INFO - Started process (PID=99248) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:24:27.674+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:24:27.675+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:24:27.674+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:24:27.680+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:24:27.717+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:24:27.717+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:24:27.763+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:24:27.763+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:20:00+00:00, run_after=2025-01-15 06:25:00+00:00
+[2025-01-15T14:24:27.769+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.098 seconds
+[2025-01-15T14:26:30.630+0800] {processor.py:186} INFO - Started process (PID=608) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:26:30.632+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:26:30.633+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:26:30.632+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:26:30.637+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:26:30.675+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:26:30.675+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:26:30.723+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:26:30.723+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:25:00+00:00, run_after=2025-01-15 06:30:00+00:00
+[2025-01-15T14:26:30.729+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.101 seconds
+[2025-01-15T14:28:16.942+0800] {processor.py:186} INFO - Started process (PID=1791) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:28:16.943+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:28:16.944+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:28:16.944+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:28:16.949+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:28:16.984+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:28:16.984+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:28:17.030+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:28:17.030+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:25:00+00:00, run_after=2025-01-15 06:30:00+00:00
+[2025-01-15T14:28:17.037+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.097 seconds
+[2025-01-15T14:30:04.659+0800] {processor.py:186} INFO - Started process (PID=3269) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:30:04.660+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py for tasks to queue
+[2025-01-15T14:30:04.660+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:30:04.660+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:30:04.664+0800] {processor.py:925} INFO - DAG(s) 'Demo-ML-Pipeline' retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py
+[2025-01-15T14:30:04.702+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:30:04.702+0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-15T14:30:04.748+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:30:04.748+0800] {dag.py:4180} INFO - Setting next_dagrun for Demo-ML-Pipeline to 2025-01-15 06:30:00+00:00, run_after=2025-01-15 06:35:00+00:00
+[2025-01-15T14:30:04.755+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Machine Learning (ML) Pipeline Using Apache Airflow.py took 0.099 seconds

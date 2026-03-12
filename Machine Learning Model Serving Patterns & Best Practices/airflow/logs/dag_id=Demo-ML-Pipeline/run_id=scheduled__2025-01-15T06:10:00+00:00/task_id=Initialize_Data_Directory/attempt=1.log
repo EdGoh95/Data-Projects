@@ -1,0 +1,28 @@
+[2025-01-15T14:15:04.063+0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-15T14:15:04.076+0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Demo-ML-Pipeline.Initialize_Data_Directory scheduled__2025-01-15T06:10:00+00:00 [queued]>
+[2025-01-15T14:15:04.078+0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Demo-ML-Pipeline.Initialize_Data_Directory scheduled__2025-01-15T06:10:00+00:00 [queued]>
+[2025-01-15T14:15:04.078+0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2025-01-15T14:15:04.083+0800] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): Initialize_Data_Directory> on 2025-01-15 06:10:00+00:00
+[2025-01-15T14:15:04.087+0800] {standard_task_runner.py:72} INFO - Started process 94057 to run task
+[2025-01-15T14:15:04.093+0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Demo-ML-Pipeline', 'Initialize_Data_Directory', 'scheduled__2025-01-15T06:10:00+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/Machine Learning (ML) Pipeline Using Apache Airflow.py', '--cfg-path', '/var/folders/cq/4mg9fv0s5x728btk12fdv1v80000gn/T/tmp4brikkfi']
+[2025-01-15T14:15:04.095+0800] {standard_task_runner.py:105} INFO - Job 67: Subtask Initialize_Data_Directory
+[2025-01-15T14:15:04.121+0800] {task_command.py:467} INFO - Running <TaskInstance: Demo-ML-Pipeline.Initialize_Data_Directory scheduled__2025-01-15T06:10:00+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2025-01-15T14:15:04.149+0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='edwin.spartan117@yahoo.com.sg' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Demo-ML-Pipeline' AIRFLOW_CTX_TASK_ID='Initialize_Data_Directory' AIRFLOW_CTX_EXECUTION_DATE='2025-01-15T06:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-01-15T06:10:00+00:00'
+[2025-01-15T14:15:04.149+0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-15T14:15:04.150+0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-15T14:15:04.150+0800] {logging_mixin.py:190} INFO - Current task name:Initialize_Data_Directory state:running start_date:2025-01-15 06:15:04.076376+00:00
+[2025-01-15T14:15:04.150+0800] {logging_mixin.py:190} INFO - Dag name:Demo-ML-Pipeline and current dag run status:running
+[2025-01-15T14:15:04.150+0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-15T14:15:04.151+0800] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/cq/4mg9fv0s5x728btk12fdv1v80000gn/T
+[2025-01-15T14:15:04.151+0800] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Initialize Data Directory.py"']
+[2025-01-15T14:15:04.159+0800] {subprocess.py:99} INFO - Output:
+[2025-01-15T14:15:04.182+0800] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-15T14:15:04.191+0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-15T14:15:04.191+0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Demo-ML-Pipeline, task_id=Initialize_Data_Directory, run_id=scheduled__2025-01-15T06:10:00+00:00, execution_date=20250115T061000, start_date=20250115T061504, end_date=20250115T061504
+[2025-01-15T14:15:04.194+0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-15T14:15:04.195+0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-15T14:15:04.195+0800] {logging_mixin.py:190} INFO - Dag name:Demo-ML-Pipeline queued_at:2025-01-15 06:15:02.377424+00:00
+[2025-01-15T14:15:04.195+0800] {logging_mixin.py:190} INFO - Task hostname:1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa operator:BashOperator
+[2025-01-15T14:15:04.242+0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-15T14:15:04.251+0800] {taskinstance.py:3895} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2025-01-15T14:15:04.252+0800] {local_task_job_runner.py:245} INFO - ::endgroup::

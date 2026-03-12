@@ -1,0 +1,41 @@
+[2025-01-15T14:07:48.362+0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-15T14:07:48.375+0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Demo-ML-Pipeline.Combining_Data_From_Different_Sources manual__2025-01-15T06:07:35.843179+00:00 [queued]>
+[2025-01-15T14:07:48.377+0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Demo-ML-Pipeline.Combining_Data_From_Different_Sources manual__2025-01-15T06:07:35.843179+00:00 [queued]>
+[2025-01-15T14:07:48.377+0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2025-01-15T14:07:48.383+0800] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): Combining_Data_From_Different_Sources> on 2025-01-15 06:07:35.843179+00:00
+[2025-01-15T14:07:48.387+0800] {standard_task_runner.py:72} INFO - Started process 89977 to run task
+[2025-01-15T14:07:48.392+0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'Demo-ML-Pipeline', 'Combining_Data_From_Different_Sources', 'manual__2025-01-15T06:07:35.843179+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/Machine Learning (ML) Pipeline Using Apache Airflow.py', '--cfg-path', '/var/folders/cq/4mg9fv0s5x728btk12fdv1v80000gn/T/tmpfccatnow']
+[2025-01-15T14:07:48.393+0800] {standard_task_runner.py:105} INFO - Job 53: Subtask Combining_Data_From_Different_Sources
+[2025-01-15T14:07:48.416+0800] {task_command.py:467} INFO - Running <TaskInstance: Demo-ML-Pipeline.Combining_Data_From_Different_Sources manual__2025-01-15T06:07:35.843179+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2025-01-15T14:07:48.443+0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='edwin.spartan117@yahoo.com.sg' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Demo-ML-Pipeline' AIRFLOW_CTX_TASK_ID='Combining_Data_From_Different_Sources' AIRFLOW_CTX_EXECUTION_DATE='2025-01-15T06:07:35.843179+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-15T06:07:35.843179+00:00'
+[2025-01-15T14:07:48.443+0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-15T14:07:48.444+0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-15T14:07:48.444+0800] {logging_mixin.py:190} INFO - Current task name:Combining_Data_From_Different_Sources state:running start_date:2025-01-15 06:07:48.375609+00:00
+[2025-01-15T14:07:48.444+0800] {logging_mixin.py:190} INFO - Dag name:Demo-ML-Pipeline and current dag run status:running
+[2025-01-15T14:07:48.444+0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-15T14:07:48.445+0800] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/cq/4mg9fv0s5x728btk12fdv1v80000gn/T
+[2025-01-15T14:07:48.445+0800] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Combining Data From Different Sources.py"']
+[2025-01-15T14:07:48.451+0800] {subprocess.py:99} INFO - Output:
+[2025-01-15T14:07:48.774+0800] {subprocess.py:106} INFO -     Unnamed: 0  X  Y
+[2025-01-15T14:07:48.775+0800] {subprocess.py:106} INFO - 0            0  2  1
+[2025-01-15T14:07:48.775+0800] {subprocess.py:106} INFO - 1            1  2  1
+[2025-01-15T14:07:48.775+0800] {subprocess.py:106} INFO - 2            2  2  1
+[2025-01-15T14:07:48.775+0800] {subprocess.py:106} INFO - 3            3  3  1
+[2025-01-15T14:07:48.776+0800] {subprocess.py:106} INFO - 4            4  4  1
+[2025-01-15T14:07:48.776+0800] {subprocess.py:106} INFO - 5            5  5  1
+[2025-01-15T14:07:48.776+0800] {subprocess.py:106} INFO - 6            0  5  2
+[2025-01-15T14:07:48.776+0800] {subprocess.py:106} INFO - 7            1  5  2
+[2025-01-15T14:07:48.776+0800] {subprocess.py:106} INFO - 8            2  5  2
+[2025-01-15T14:07:48.777+0800] {subprocess.py:106} INFO - 9            3  3  1
+[2025-01-15T14:07:48.777+0800] {subprocess.py:106} INFO - 10           4  4  1
+[2025-01-15T14:07:48.777+0800] {subprocess.py:106} INFO - 11           5  5  1
+[2025-01-15T14:07:48.810+0800] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-15T14:07:48.819+0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-15T14:07:48.819+0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=Demo-ML-Pipeline, task_id=Combining_Data_From_Different_Sources, run_id=manual__2025-01-15T06:07:35.843179+00:00, execution_date=20250115T060735, start_date=20250115T060748, end_date=20250115T060748
+[2025-01-15T14:07:48.823+0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-15T14:07:48.823+0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-15T14:07:48.824+0800] {logging_mixin.py:190} INFO - Dag name:Demo-ML-Pipeline queued_at:2025-01-15 06:07:35.847959+00:00
+[2025-01-15T14:07:48.824+0800] {logging_mixin.py:190} INFO - Task hostname:1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa operator:BashOperator
+[2025-01-15T14:07:48.849+0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-15T14:07:48.857+0800] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-15T14:07:48.858+0800] {local_task_job_runner.py:245} INFO - ::endgroup::

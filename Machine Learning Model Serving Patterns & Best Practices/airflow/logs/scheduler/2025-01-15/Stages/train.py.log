@@ -1,0 +1,295 @@
+[2025-01-15T13:52:58.346+0800] {processor.py:186} INFO - Started process (PID=81482) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:52:58.347+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T13:52:58.347+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:52:58.347+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:52:59.056+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:52:59.055+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py", line 10, in <module>
+    df = pd.read_csv('/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data/Combined.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data/Combined.csv'
+[2025-01-15T13:52:59.057+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:52:59.106+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.761 seconds
+[2025-01-15T13:55:23.381+0800] {processor.py:186} INFO - Started process (PID=82814) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:55:23.383+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T13:55:23.383+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:55:23.383+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:55:24.063+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:55:24.062+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py", line 10, in <module>
+    df = pd.read_csv('/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data/Combined.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data/Combined.csv'
+[2025-01-15T13:55:24.064+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:55:24.110+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.730 seconds
+[2025-01-15T13:57:27.896+0800] {processor.py:186} INFO - Started process (PID=84040) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:57:27.897+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T13:57:27.898+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:57:27.897+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:57:28.696+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:57:28.694+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py", line 11, in <module>
+    logreg_model = LogisticRegression(random_state = 0).fit(df['X'], df['Y'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1223, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1301, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+[2025-01-15T13:57:28.697+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:57:28.748+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.855 seconds
+[2025-01-15T13:59:22.013+0800] {processor.py:186} INFO - Started process (PID=85180) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:59:22.014+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T13:59:22.015+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:59:22.015+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:59:22.726+0800] {logging_mixin.py:190} INFO - [2025-01-15T13:59:22.723+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py", line 11, in <module>
+    logreg_model = LogisticRegression(random_state = 0).fit(df['X'], df['Y'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1223, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1301, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+[2025-01-15T13:59:22.726+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T13:59:22.775+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.764 seconds
+[2025-01-15T14:01:28.452+0800] {processor.py:186} INFO - Started process (PID=86384) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:01:28.453+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:01:28.454+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:01:28.454+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:01:29.183+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:01:29.181+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py", line 11, in <module>
+    logreg_model = LogisticRegression(random_state = 0).fit(df['X'], df['Y'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1223, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1301, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+[2025-01-15T14:01:29.183+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:01:29.235+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.785 seconds
+[2025-01-15T14:03:15.416+0800] {processor.py:186} INFO - Started process (PID=87351) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:03:15.417+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:03:15.418+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:03:15.418+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:03:16.220+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:03:16.217+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py", line 11, in <module>
+    logreg_model = LogisticRegression(random_state = 0).fit(df['X'], df['Y'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1223, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1301, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+[2025-01-15T14:03:16.220+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:03:16.276+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.861 seconds
+[2025-01-15T14:05:03.898+0800] {processor.py:186} INFO - Started process (PID=88386) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:05:03.899+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:05:03.900+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:05:03.899+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:05:04.691+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:05:04.688+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py", line 11, in <module>
+    logreg_model = LogisticRegression(random_state = 0).fit(df['X'], df['Y'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py", line 1223, in fit
+    X, y = self._validate_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/base.py", line 650, in _validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1301, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/sklearn/utils/validation.py", line 1050, in check_array
+    raise ValueError(msg)
+ValueError: Expected a 2-dimensional container but got <class 'pandas.core.series.Series'> instead. Pass a DataFrame containing a single row (i.e. single sample) or a single column (i.e. single feature) instead.
+[2025-01-15T14:05:04.691+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:05:04.738+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.842 seconds
+[2025-01-15T14:07:06.877+0800] {processor.py:186} INFO - Started process (PID=89568) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:07:06.879+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:07:06.879+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:07:06.879+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:07:07.705+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:07:07.742+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.867 seconds
+[2025-01-15T14:09:06.688+0800] {processor.py:186} INFO - Started process (PID=90701) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:09:06.688+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:09:06.689+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:09:06.689+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:09:07.374+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:09:07.406+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.721 seconds
+[2025-01-15T14:11:13.965+0800] {processor.py:186} INFO - Started process (PID=91898) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:11:13.967+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:11:13.968+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:11:13.967+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:11:14.736+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:11:14.772+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.809 seconds
+[2025-01-15T14:13:02.190+0800] {processor.py:186} INFO - Started process (PID=92888) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:13:02.191+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:13:02.192+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:13:02.192+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:13:02.955+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:13:02.992+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.803 seconds
+[2025-01-15T14:14:48.099+0800] {processor.py:186} INFO - Started process (PID=93914) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:14:48.101+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:14:48.102+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:14:48.102+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:14:48.830+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:14:48.863+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.765 seconds
+[2025-01-15T14:16:45.734+0800] {processor.py:186} INFO - Started process (PID=95038) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:16:45.735+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:16:45.736+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:16:45.735+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:16:46.508+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:16:46.544+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.811 seconds
+[2025-01-15T14:18:43.684+0800] {processor.py:186} INFO - Started process (PID=96111) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:18:43.685+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:18:43.686+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:18:43.686+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:18:44.458+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:18:44.494+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.812 seconds
+[2025-01-15T14:20:38.346+0800] {processor.py:186} INFO - Started process (PID=97163) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:20:38.347+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:20:38.347+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:20:38.347+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:20:39.096+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:20:39.095+0800] {dagbag.py:387} ERROR - Failed to import: /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py", line 10, in <module>
+    df = pd.read_csv('/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data/Combined.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/opt/anaconda3/envs/PyTorch/lib/python3.11/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/edwinjosiahgoh95/airflow/DAGs/Stages/Data/Combined.csv'
+[2025-01-15T14:20:39.096+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:20:39.143+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.802 seconds
+[2025-01-15T14:22:37.358+0800] {processor.py:186} INFO - Started process (PID=98243) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:22:37.359+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:22:37.360+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:22:37.360+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:22:38.066+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:22:38.102+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.746 seconds
+[2025-01-15T14:24:18.513+0800] {processor.py:186} INFO - Started process (PID=99148) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:24:18.514+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:24:18.514+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:24:18.514+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:24:19.239+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:24:19.271+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.760 seconds
+[2025-01-15T14:26:21.602+0800] {processor.py:186} INFO - Started process (PID=496) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:26:21.603+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:26:21.603+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:26:21.603+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:26:22.306+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:26:22.337+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.737 seconds
+[2025-01-15T14:28:07.660+0800] {processor.py:186} INFO - Started process (PID=1678) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:28:07.661+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:28:07.662+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:28:07.662+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:28:08.532+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:28:08.569+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.910 seconds
+[2025-01-15T14:29:54.119+0800] {processor.py:186} INFO - Started process (PID=3151) to work on /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:29:54.120+0800] {processor.py:914} INFO - Processing file /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py for tasks to queue
+[2025-01-15T14:29:54.121+0800] {logging_mixin.py:190} INFO - [2025-01-15T14:29:54.121+0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:29:54.836+0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py
+[2025-01-15T14:29:54.869+0800] {processor.py:208} INFO - Processing /Users/edwinjosiahgoh95/airflow/DAGs/Stages/train.py took 0.751 seconds

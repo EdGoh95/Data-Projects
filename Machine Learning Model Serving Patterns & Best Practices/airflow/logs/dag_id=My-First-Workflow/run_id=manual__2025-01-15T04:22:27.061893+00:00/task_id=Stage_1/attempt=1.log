@@ -1,0 +1,30 @@
+[2025-01-15T12:22:30.710+0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-01-15T12:22:30.724+0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: My-First-Workflow.Stage_1 manual__2025-01-15T04:22:27.061893+00:00 [queued]>
+[2025-01-15T12:22:30.726+0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: My-First-Workflow.Stage_1 manual__2025-01-15T04:22:27.061893+00:00 [queued]>
+[2025-01-15T12:22:30.726+0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 4
+[2025-01-15T12:22:30.731+0800] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): Stage_1> on 2025-01-15 04:22:27.061893+00:00
+[2025-01-15T12:22:30.736+0800] {standard_task_runner.py:72} INFO - Started process 32270 to run task
+[2025-01-15T12:22:30.741+0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'My-First-Workflow', 'Stage_1', 'manual__2025-01-15T04:22:27.061893+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/My First Workflow in Apache Airflow.py', '--cfg-path', '/var/folders/cq/4mg9fv0s5x728btk12fdv1v80000gn/T/tmppjws6mj7']
+[2025-01-15T12:22:30.742+0800] {standard_task_runner.py:105} INFO - Job 4: Subtask Stage_1
+[2025-01-15T12:22:30.766+0800] {task_command.py:467} INFO - Running <TaskInstance: My-First-Workflow.Stage_1 manual__2025-01-15T04:22:27.061893+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2025-01-15T12:22:30.789+0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='edwin.spartan117@yahoo.com.sg' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='My-First-Workflow' AIRFLOW_CTX_TASK_ID='Stage_1' AIRFLOW_CTX_EXECUTION_DATE='2025-01-15T04:22:27.061893+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-01-15T04:22:27.061893+00:00'
+[2025-01-15T12:22:30.790+0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-01-15T12:22:30.790+0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-01-15T12:22:30.790+0800] {logging_mixin.py:190} INFO - Current task name:Stage_1 state:running start_date:2025-01-15 04:22:30.724446+00:00
+[2025-01-15T12:22:30.790+0800] {logging_mixin.py:190} INFO - Dag name:My-First-Workflow and current dag run status:running
+[2025-01-15T12:22:30.790+0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-01-15T12:22:30.791+0800] {subprocess.py:78} INFO - Tmp dir root location: /var/folders/cq/4mg9fv0s5x728btk12fdv1v80000gn/T
+[2025-01-15T12:22:30.791+0800] {subprocess.py:88} INFO - Running command: ['/bin/bash', '-c', 'python3 "/Users/edwinjosiahgoh95/airflow/DAGs/Stage 1.py"']
+[2025-01-15T12:22:30.798+0800] {subprocess.py:99} INFO - Output:
+[2025-01-15T12:22:35.821+0800] {subprocess.py:106} INFO - I am at Stage 1
+[2025-01-15T12:22:35.823+0800] {subprocess.py:106} INFO - After 5 seconds, I am still at Stage 1
+[2025-01-15T12:22:35.828+0800] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-01-15T12:22:35.846+0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-01-15T12:22:35.848+0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=My-First-Workflow, task_id=Stage_1, run_id=manual__2025-01-15T04:22:27.061893+00:00, execution_date=20250115T042227, start_date=20250115T042230, end_date=20250115T042235
+[2025-01-15T12:22:35.852+0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-01-15T12:22:35.853+0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-01-15T12:22:35.853+0800] {logging_mixin.py:190} INFO - Dag name:My-First-Workflow queued_at:2025-01-15 04:22:27.075000+00:00
+[2025-01-15T12:22:35.853+0800] {logging_mixin.py:190} INFO - Task hostname:1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa operator:BashOperator
+[2025-01-15T12:22:35.889+0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-01-15T12:22:35.902+0800] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-01-15T12:22:35.903+0800] {local_task_job_runner.py:245} INFO - ::endgroup::
