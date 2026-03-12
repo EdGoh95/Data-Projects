@@ -8,7 +8,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 
 with DAG('Demo-ML-Pipeline',
-         default_args = {'depends_on_past': False, 'email': ['edwin.spartan117@yahoo.com.sg'],
+         default_args = {'depends_on_past': False, 'email': ['<YOUR_EMAIL>'],
                          'email_on_failure': True, 'email_on_retry': False, 'retries': 3,
                          'retry_delay': timedelta(minutes = 5)},
          description = 'A demonstration of how to execute a Machine Learning (ML) pipeline using Apache Airflow',
