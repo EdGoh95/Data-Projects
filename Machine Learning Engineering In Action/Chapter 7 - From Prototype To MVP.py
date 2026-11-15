@@ -64,8 +64,7 @@ JFK_hyperopt = run_hyperparameter_tuning(JFK_training_dataset['Total Passengers'
                                          JFK_testing_dataset['Total Passengers'], parameters)
 
 #%% HyperOpt Using A Spark Cluster
-spark_session = SparkSession.builder.remote(
-    'sc://6112322794996208.8.gcp.databricks.com:443/;token=dapi0f92a60bfc652437060b4427a5fbecac;x-databricks-cluster-id=1222-094539-jwcmrww4').getOrCreate()
+spark_session = SparkSession.builder.remote('<URL_ADDRESS_TO_REMOTE_SPARK_SESSION>').getOrCreate()
 
 csv_file_location = 'dbfs:/user/hive/warehouse/air-passenger-traffic-per-month-port-authority-of-ny-nj-beginning-1977.csv'
 database_name = 'edwingoh95'
