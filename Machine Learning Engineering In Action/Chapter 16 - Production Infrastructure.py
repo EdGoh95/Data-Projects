@@ -12,8 +12,7 @@ from pyspark.sql import functions, SparkSession
 from mlflow.tracking.client import MlflowClient
 from databricks import feature_store
 
-spark_session = SparkSession.builder.remote(
-    'sc://6112322794996208.8.gcp.databricks.com:443/;token=dapi0f92a60bfc652437060b4427a5fbecac;x-databricks-cluster-id=1226-040051-f3rwiwu').getOrCreate()
+spark_session = SparkSession.builder.remote('<URL_ADDRESS_TO_REMOTE_SPARK_SESSION>').getOrCreate()
 
 #%% Artifact Management Using MLflow's Model Registry
 @dataclass
